@@ -1,8 +1,9 @@
 admins: []
 forwards:
 - source: -1001479888204
-  dest: [-1001614927616]
-  offset: 1
+  dest:
+  - -1001614927616
+  offset: 2794
   end: 0
 show_forwarded_from: false
 live:
@@ -13,10 +14,6 @@ past:
 plugins:
   replace:
     text:
-      "@Telugudubbing_movies - ": "Join @MVS_REQ - "
-      "@telugudubbing_movies ": "Join @MVS_REQ - "
-
+      '@Telugudubbing_movies - ': 'Join @MVS_REQ - '
+      '@telugudubbing_movies ': 'Join @MVS_REQ - '
     regex: true
-
- 
-
