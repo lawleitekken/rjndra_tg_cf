@@ -14,7 +14,7 @@ plugins:
   replace:
     text:
       "@Telugudubbing_movies - ": "Join @MVS_REQ - "
-      "telugudubbing_movies ": "Join @MVS_REQ - "
+      "@telugudubbing_movies ": "Join @MVS_REQ - "
 
     regex: true
 
