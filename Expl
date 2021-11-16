@@ -1,0 +1,41 @@
+
+forwards:
+  - source: -1001412118156
+    dest: [-1001461332656,-1001457230530]
+    offset: 100 # **_msg id for starting_**
+    end: 5000 # msg id for ending
+
+plugins:
+  replace:
+    text:
+      "-": ""
+
+    regex: true
+
+
+plugins:
+  filter:
+
+    text:
+      case_sensitive: true # default is false if you don't write this line
+      # the case_sensitive param has no significance if regex is set to true    
+      whitelist: ["this word"]
+      blacklist: ["hello"]
+      
+      blacklist: ["nope", "cat", "dog"]
+      #multiple blacklist keywords
+      
+      regex: false # default is false. 
+      # set to true if you want the expressions in whitelist and blacklist 
+      # to be evaluated as regular expressions
+
+    users:
+      blacklist: [1547315064] # currently user ids are supported only. 
+      # get user ids from @userinfobot on telegram
+         
+    files:
+      whitelist: [document,nofile] 
+      # valid types are 
+      # audio,gif,video,video_note,sticker,contact,photo,document,nofile
+    
+
