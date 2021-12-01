@@ -15,14 +15,14 @@ plugins:
   replace:
     text:
       '@Telugudubbing_movies - ': 'Join @MVS_REQ - '
-      '⭕ @Tamil_Seriesz
-⭕ @Tv_Web_Seriesz
-⭕ @Tamil_Old_Flims
-⭕ @Tamil_DUB_Movies
-⭕ @Sons_of_TamilRockers
-⭕ @Tamil_HD_Movies_Requests
-➠ Group : 🎯
-⭕ @Discussion_HD_Movies 💬
-➠ Click Here More Channels
-⭕ @Tamil_LinkzZ (All in One)': 'Join @MVS_REQ - '
+      '⭕ @Tamil_Seriesz' : '  '
+      '⭕ @Tv_Web_Seriesz' : '   '
+      '⭕ @Tamil_Old_Flims' : '   '
+      '⭕ @Tamil_DUB_Movies' : '   '
+      '⭕ @Sons_of_TamilRockers' : '   '
+      '⭕ @Tamil_HD_Movies_Requests' : '   '
+      '➠ Group : 🎯' : '   '
+      '⭕ @Discussion_HD_Movies 💬' : '   '
+      '➠ Click Here More Channels' : '   '
+      '⭕ @Tamil_LinkzZ (All in One)': 'Join @MVS_REQ'
     regex: true
