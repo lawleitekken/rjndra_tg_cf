@@ -3,8 +3,8 @@ forwards:
 - source: -1001230197447
   dest:
   - -1001614264545
-  offset: 5990
-  end: 6000
+  offset: 5998
+  end: 10000
 show_forwarded_from: false
 live:
   delete_sync: false
@@ -15,5 +15,4 @@ plugins:
   replace:
     text:
       '@Telugudubbing_movies - ': 'Join @MVS_REQ - '
-      '🧡 First On Telegram 🧡 ━━━━━━━━━━━━━━━━⭕ @Tamil_Seriesz⭕ @Tv_Web_Seriesz⭕ @Tamil_Old_Flims⭕ @Tamil_DUB_Movies⭕ @Sons_of_TamilRockers⭕ @Tamil_HD_Movies_Requests➠ Group : 🎯⭕ @Discussion_HD_Movies 💬➠ Click Here More Channels⭕ @Tamil_LinkzZ (All in One)' : 'Join @REQ_MVS'
-    regex: true
+      regex: true
