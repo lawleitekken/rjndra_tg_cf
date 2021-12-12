@@ -27,5 +27,5 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: Afms
+          branch: mfkfils
           message: push files changed
