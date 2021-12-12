@@ -4,7 +4,7 @@ forwards:
   dest:
   - -1001530546753
   - -1001663359641
-  offset: 5000
+  offset: 7001
   end: 7000
 show_forwarded_from: false
 live:
@@ -24,7 +24,7 @@ plugins:
       '@mwkbots': '@REQ_MVS'
       '@AVA': '@REQ_MVS'
       '@CCineClub': '@REQ_MVS'
-      'CCineClub_0': '@REQ_MVS'
+      CCineClub_0: '@REQ_MVS'
       '@mwkott': '@REQ_MVS'
       '@Popcorn_Cinemas': '@REQ_MVS'
       '@MM_New': Join @REQ_MVS
