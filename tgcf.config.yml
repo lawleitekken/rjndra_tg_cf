@@ -4,8 +4,8 @@ forwards:
   dest:
   - -1001641291308
   - -1001189156647
-  offset: 36001
-  end: 36000
+  offset: 48000
+  end: 51000
 show_forwarded_from: false
 live:
   delete_sync: false
