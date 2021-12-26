@@ -1,11 +1,11 @@
 admins: []
 forwards:
-- source: -1001255398384
+- source: -1001538341021
   dest:
-  - -1001530546753
-  - -1001663359641
-  offset: 57001
-  end: 57000
+  - -1001577850727
+  - -1001620165891
+  offset: 6000
+  end: 9000
 show_forwarded_from: false
 live:
   delete_sync: false
@@ -15,20 +15,6 @@ past:
 plugins:
   replace:
     text:
-      '@Telugudubbing_movies - ': 'Join @REQ_MVS - '
-      '@ALBCINEMASALL': Join @REQ_MVS
-      '@mwkOTT': '@REQ_MVS'
-      '@mwkFiles': '@REQ_MVS'
-      '@mwkfiles': '@REQ_MVS'
-      '@movieworldkdy': '@REQ_MVS'
-      '@mwkbots': '@REQ_MVS'
-      '@AVA': '@REQ_MVS'
-      '@CCineClub': '@REQ_MVS'
-      CCineClub_0: '@REQ_MVS'
-      '@mwkott': '@REQ_MVS'
-      '@Popcorn_Cinemas': '@REQ_MVS'
-      '@MM_New': Join @REQ_MVS
-      '[CF]': '@REQ_MVS'
-      '@Onmoviess': '@REQ_MVS'
-      '@fullyfilmie': '@REQ_MVS'
+      '@MovieJunction - ': 'Join @REQ_MVS - '
+      '@MovieJunctionChannel': Join @REQ_MVS
       regex: true
