@@ -1,11 +1,11 @@
 admins: []
 forwards:
-- source: -1001692636800
+- source: -1001288506951
   dest:
-  - -1001641291308
-  - -1001189156647
-  offset: 66001
-  end: 66000
+  - -1001653975891
+  - -1001573449907
+  offset: 3001
+  end: 6000
 show_forwarded_from: false
 live:
   delete_sync: false
@@ -15,6 +15,6 @@ past:
 plugins:
   replace:
     text:
-      '@MovieJunction - ': 'Join @REQ_MVS - '
-      '@MovieJunctionChannel': Join @REQ_MVS
+      '@UCParadiso': 'Join @REQ_MVS - '
+      '@UCParadisoGroup': Join @REQ_MVS
       regex: true
