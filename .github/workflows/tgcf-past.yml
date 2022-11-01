@@ -27,5 +27,5 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: tldb
+          branch: test
           message: push files changed
