@@ -1,6 +1,6 @@
 admins: []
 forwards:
-- source: -100777000
+- source: -777000
   dest:
   - -1001526716875
   offset: 1
